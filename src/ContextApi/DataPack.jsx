@@ -129,13 +129,13 @@ const DataPack = ({ children }) => {
   };
 
   //   https://api.openweathermap.org/data/2.5/weather?lat=30.8171338&lon=-89.1111595&appid= =>weather
-<<<<<<< HEAD
+
   //   https://api.openweathermap.org/data/2.5/forecast?lat=30.8171338&lon=-89.1111595&appid==> forecast
   //   http://api.openweathermap.org/geo/1.0/direct?q=kozhikode,kerala,india&limit=5&appid==>dynamic geolocation
-=======
+
   //   https://api.openweathermap.org/data/2.5/forecast?lat=30.8171338&lon=-89.1111595&appid= => forecast
   //   http://api.openweathermap.org/geo/1.0/direct?q=kozhikode,kerala,india&limit=5&appid= =>dynamic geolocation
->>>>>>> b1c8252a38733c568aff52b2dc1d33fcb7ef42bf
+
   return (
     <context.Provider
       value={{
