@@ -7,11 +7,11 @@ export const forecast = (data) => {
   let day4 = data.slice(24, 32);
   let day5 = data.slice(32, 40);
 
-  console.log(day1, day1.length);
-  console.log(day2, day2.length);
-  console.log(day3, day3.length);
-  console.log(day4, day4.length);
-  console.log(day5, day5.length);
+  // console.log(day1, day1.length);
+  // console.log(day2, day2.length);
+  // console.log(day3, day3.length);
+  // console.log(day4, day4.length);
+  // console.log(day5, day5.length);
 
   let day1_min_max = minMaxFinder(day1);
   let day2_min_max = minMaxFinder(day2);
@@ -33,9 +33,9 @@ export const forecast = (data) => {
     day4_min_max[1],
     day5_min_max[1],
   ];
-  console.log(day1_min_max, "min and max temp of day1");
-  console.log(min_Collection, "all minimums");
-  console.log(max_Collection, "all maximums");
+  // console.log(day1_min_max, "min and max temp of day1");
+  // console.log(min_Collection, "all minimums");
+  // console.log(max_Collection, "all maximums");
   return [min_Collection, max_Collection];
 };
 
@@ -47,13 +47,6 @@ function minMaxFinder(arr) {
     min = Math.min(arr[i].main.temp, min);
     max = Math.max(arr[i].main.temp, max);
   }
-  //   for (let i = 0; i < arr.length; i++) {
-  //     // if (arr[i].main.temp_min < min) {
-  //     //   min = arr[i];
-  //     // }
-  //     if (arr[i].main.temp_max > max) {
-  //       max = arr[i];
-  //     }
-  //   }
+
   return [min, max];
 }

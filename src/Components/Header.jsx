@@ -10,6 +10,7 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
 import ThirdContainer from "./ThirdContainer";
 import { MdDarkMode } from "react-icons/md";
 import { context } from "../ContextApi/DataPack";
+import Swal from "sweetalert2";
 
 // ===============================================================================
 const Header = () => {
@@ -27,9 +28,25 @@ const Header = () => {
     inputRef.current.focus();
   }, []);
   const getLocationDetails = ({ state, district, country }) => {
-    console.log(loc, "location");
+    // console.log(loc, "location");
     if (!state || !district || !country) {
-      alert("complete all fields!!!");
+      Swal.fire({
+        position: "middle",
+        icon: "error",
+        title: "Give valid location details",
+        showConfirmButton: false,
+        timer: 1500,
+        customClass: {
+          popup: "custom-popup-class",
+        },
+        onOpen: function () {
+          // Apply styling directly using JavaScript
+          var customPopup = document.querySelector(".custom-popup-class");
+          customPopup.style.maxWidth = "250px";
+          customPopup.style.fontSize = "10px"; // Set your desired font size
+        },
+      });
+      // alert("complete all fields!!!");
       return;
     }
 
@@ -41,9 +58,25 @@ const Header = () => {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data, "lat and lon details");
+        // console.log(data, "lat and lon details");
         if (!data[0]) {
-          alert("location Error , Give valid location details");
+          Swal.fire({
+            position: "middle",
+            icon: "error",
+            title: "Give valid location details",
+            showConfirmButton: false,
+            timer: 1500,
+            customClass: {
+              popup: "custom-popup-class",
+            },
+            onOpen: function () {
+              // Apply styling directly using JavaScript
+              var customPopup = document.querySelector(".custom-popup-class");
+              customPopup.style.maxWidth = "250px";
+              customPopup.style.fontSize = "10px"; // Set your desired font size
+            },
+          });
+          // alert("location Error , Give valid location details");
           return;
         }
         setData((prev) => {
@@ -53,8 +86,22 @@ const Header = () => {
         //   alert("Location error");
         //   return;
         // }
-        console.log(data[0], "error checking");
-
+        // console.log(data[0], "error checking");
+        Swal.fire({
+          position: "middle",
+          icon: "success",
+          title: "Request sent",
+          showConfirmButton: false,
+          timer: 1500,
+          customClass: {
+            popup: "custom-popup-class",
+          },
+          onOpen: function () {
+            // Apply styling directly using JavaScript
+            document.querySelector(".custom-popup-class").style.maxWidth =
+              "200px";
+          },
+        });
         getWeather(data[0].lat, data[0].lon);
         getForCast(data[0].lat, data[0].lon);
       })

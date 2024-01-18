@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import { forecast } from "../Controller/forecast";
-
+import Swal from "sweetalert2";
+// =============================================
 export const context = createContext();
 const DataPack = ({ children }) => {
   const [data, setData] = useState({
@@ -25,7 +26,7 @@ const DataPack = ({ children }) => {
   const [theme, setTheme] = useState(true);
 
   useEffect(() => {
-    console.log(data, "updated data");
+    // console.log(data, "updated data");
   }, [data]);
 
   //getting current weather details of passed lattitude and longitude
@@ -71,6 +72,22 @@ const DataPack = ({ children }) => {
         });
       })
       .catch((err) => {
+        Swal.fire({
+          position: "middle",
+          icon: "error",
+          title: `${err}`,
+          showConfirmButton: false,
+          timer: 1500,
+          customClass: {
+            popup: "custom-popup-class",
+          },
+          onOpen: function () {
+            // Apply styling directly using JavaScript
+            var customPopup = document.querySelector(".custom-popup-class");
+            customPopup.style.maxWidth = "250px";
+            customPopup.style.fontSize = "10px"; // Set your desired font size
+          },
+        });
         setData((prev) => {
           return { ...prev, error: err };
         });
@@ -84,20 +101,36 @@ const DataPack = ({ children }) => {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data, "forecast");
+        // console.log(data, "forecast");
         let min_max = forecast(data.list); //passing the forecast for preparing chart list
         setData((prev) => {
           return { ...prev, min: min_max[0], max: min_max[1] };
         });
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
+        Swal.fire({
+          position: "middle",
+          icon: "error",
+          title: `${err}`,
+          showConfirmButton: false,
+          timer: 1500,
+          customClass: {
+            popup: "custom-popup-class",
+          },
+          onOpen: function () {
+            // Apply styling directly using JavaScript
+            var customPopup = document.querySelector(".custom-popup-class");
+            customPopup.style.maxWidth = "250px";
+            customPopup.style.fontSize = "10px"; // Set your desired font size
+          },
+        });
       });
   };
 
-  //   https://api.openweathermap.org/data/2.5/weather?lat=30.8171338&lon=-89.1111595&appid=a3e2ef4850ff90356addb39d1536e4a1 =>weather
-  //   https://api.openweathermap.org/data/2.5/forecast?lat=30.8171338&lon=-89.1111595&appid=a3e2ef4850ff90356addb39d1536e4a1 => forecast
-  //   http://api.openweathermap.org/geo/1.0/direct?q=kozhikode,kerala,india&limit=5&appid=a3e2ef4850ff90356addb39d1536e4a1 =>dynamic geolocation
+  //   https://api.openweathermap.org/data/2.5/weather?lat=30.8171338&lon=-89.1111595&appid= =>weather
+  //   https://api.openweathermap.org/data/2.5/forecast?lat=30.8171338&lon=-89.1111595&appid==> forecast
+  //   http://api.openweathermap.org/geo/1.0/direct?q=kozhikode,kerala,india&limit=5&appid==>dynamic geolocation
   return (
     <context.Provider
       value={{
