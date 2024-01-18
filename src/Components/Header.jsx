@@ -37,7 +37,7 @@ const Header = () => {
     const APPID = `${import.meta.env.VITE_APPID}`;
 
     fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${loc.district},${loc.state},${loc.country}&limit=5&appid=${APPID}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${loc.district},${loc.state},${loc.country}&limit=5&appid=${APPID}`
     )
       .then((res) => res.json())
       .then((data) => {
