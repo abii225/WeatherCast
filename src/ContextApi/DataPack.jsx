@@ -95,9 +95,9 @@ const DataPack = ({ children }) => {
       });
   };
 
-  //   https://api.openweathermap.org/data/2.5/weather?lat=30.8171338&lon=-89.1111595&appid=a3e2ef4850ff90356addb39d1536e4a1 =>weather
-  //   https://api.openweathermap.org/data/2.5/forecast?lat=30.8171338&lon=-89.1111595&appid=a3e2ef4850ff90356addb39d1536e4a1 => forecast
-  //   http://api.openweathermap.org/geo/1.0/direct?q=kozhikode,kerala,india&limit=5&appid=a3e2ef4850ff90356addb39d1536e4a1 =>dynamic geolocation
+  //   https://api.openweathermap.org/data/2.5/weather?lat=30.8171338&lon=-89.1111595&appid= =>weather
+  //   https://api.openweathermap.org/data/2.5/forecast?lat=30.8171338&lon=-89.1111595&appid= => forecast
+  //   http://api.openweathermap.org/geo/1.0/direct?q=kozhikode,kerala,india&limit=5&appid= =>dynamic geolocation
   return (
     <context.Provider
       value={{
