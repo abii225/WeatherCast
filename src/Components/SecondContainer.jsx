@@ -70,7 +70,7 @@ const SecondContainer = () => {
             <FaWind className="text-[25px] md:text-[50px]" />
             <p className="text-[12px] md:text-[20px] p-1 leading-5 text-center">
               {data.weather.wind ? data.weather.wind : 0}
-              <br /> km/hr
+              <br /> m/s
             </p>
           </div>
           <div className="border-2 border-white rounded-2xl text-white p-1 flex flex-col justify-center items-center align-middle">
