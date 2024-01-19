@@ -86,10 +86,14 @@ Dark mode have also installed for user smooth experience .
 Getting Started
 To run WeatherCast locally and experience the power of live weather updates and dynamic forecasting, follow these simple steps:
 
-Clone the repository: git clone https://github.com/your-username/WeatherCast.git
-Navigate to the project directory: cd WeatherCast
-Install dependencies: npm install
-Start the development server: npm run dev
+-Clone the repository: git clone https://github.com/your-username/WeatherCast.git
+
+-Navigate to the project directory: cd WeatherCast
+
+-Install dependencies: npm install
+
+-Start the development server: npm run dev
+
 Feel free to explore, contribute, and make WeatherCast your preferred choice for staying informed about the weather.
 
 Note: Don't forget to star the repository if you find WeatherCast helpful! If you encounter any issues or have suggestions, please open an issue – your feedback is valuable to us.
