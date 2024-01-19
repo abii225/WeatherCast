@@ -61,20 +61,20 @@ Click on location button to see your live weather data.
 
 This is where you can give you details to get dynamic location weather updates.
 
-![search for location](https://github.com/PragatiS11/nippy-flavor-9468/assets/121331649/95910d3e-93ba-4fba-af4b-dc931238015c)
+![search for location](https://i.ibb.co/rG1qgHq/search.png)
 
 
 #### Chart Forecast :-
 
 Here the chart section gives 5 days forecast of weather about the given location .
 
-![Chart](https://github.com/PragatiS11/nippy-flavor-9468/assets/121331649/00937fbe-23df-44fc-a058-6a218550a210)
+![Chart](https://i.ibb.co/2crSQ1H/chart.png)
 
 #### Dark Mode :-
 
 Dark mode have also installed for user smooth experience .
 
-![Chart](https://github.com/PragatiS11/nippy-flavor-9468/assets/121331649/00937fbe-23df-44fc-a058-6a218550a210)
+![Chart](https://i.ibb.co/FDy9KZR/dark-mode.png)
 
 
 
