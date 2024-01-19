@@ -54,7 +54,7 @@ This is the homepage of our website where we describe our goal.
 #### Live Location :-
 Click on location button to see your live weather data.
 
-![Live location](https://github.com/PragatiS11/nippy-flavor-9468/assets/121331649/72ccc7a8-572b-4b31-868b-cd1346e6b7db)
+![Live location](https://i.ibb.co/5FsZ0Cz/Location.png)
 
 
 #### Search for Dynamic Location  :-
