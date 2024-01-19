@@ -12,28 +12,30 @@ Welcome to WeatherCast, your go-to destination for real-time weather updates and
 **Netlify :**  [WeatherCast Live weather casting website ](https://abhayv225weathercast.netlify.app)
 ## Tech Stack
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
 
 
 
 ## Features
-Live Weather Updates: Stay informed with the latest weather conditions, ensuring you're prepared for whatever nature has in store.
+o Live Weather Updates: Stay informed with the latest weather conditions, ensuring you're prepared for whatever nature has in store.
 
-5-Day Weather Forecast: Plan ahead with our detailed 5-day forecast, giving you insights into the upcoming weather trends.
+o 5-Day Weather Forecast: Plan ahead with our detailed 5-day forecast, giving you insights into the upcoming weather trends.
 
-Interactive Charts: Experience weather data like never before with beautiful and interactive charts powered by Apex Charts. Gain a deeper understanding of temperature variations, precipitation, and more.
+o Interactive Charts: Experience weather data like never before with beautiful and interactive charts powered by Apex Charts. Gain a deeper understanding of temperature variations, precipitation, and more.
 
-Dark Mode and Light Mode: Tailor your viewing experience with the choice of dark mode or light mode, enhancing readability and reducing eye strain in any lighting condition.
+o Dark Mode and Light Mode: Tailor your viewing experience with the choice of dark mode or light mode, enhancing readability and reducing eye strain in any lighting condition.
 
-Dynamic Data: All weather information is dynamically fetched, providing you with real-time updates and ensuring accuracy in every detail.
+o Dynamic Data: All weather information is dynamically fetched, providing you with real-time updates and ensuring accuracy in every detail.
 
-Live Location Details: Get precise location information, keeping you aware of the weather conditions in your immediate surroundings.
+o Live Location Details: Get precise location information, keeping you aware of the weather conditions in your immediate surroundings.
 
-**Admin Page**
-- Add, Edit & Delete Users
-- Viewing The Users Details
-- Add & Edit & Delete Donations
-- Making User As Volunteer And Admin
+
+**Technologies Used**
+o React: The front-end of WeatherCast is developed using React, ensuring a responsive and efficient user interface.
+
+o Tailwind CSS: Styling is crafted with Tailwind CSS, offering a clean and modern design while maintaining flexibility and ease of customization.
+
+o Apex Charts: Visualize weather data with the help of Apex Charts, creating visually stunning and informative charts for a better user experience.
 
 
 
