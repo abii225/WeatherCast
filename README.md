@@ -99,6 +99,6 @@ Feel free to explore, contribute, and make WeatherCast your preferred choice for
 Note: Don't forget to star the repository if you find WeatherCast helpful! If you encounter any issues or have suggestions, please open an issue – your feedback is valuable to us.
 
 
-## Made By
+## Developer
 - [Abhay V](https://github.com/abii225)
 
