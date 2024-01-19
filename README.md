@@ -45,6 +45,9 @@ o Apex Charts: Visualize weather data with the help of Apex Charts, creating vis
 #### Home Page :-
 This is the homepage of our website where we describe our goal.
 
+<p align="center">
+  <img src="https://i.ibb.co/L51Yvyw/home.png" width="100%" alt="Image 1">
+</p>
 ![Homepage](https://i.ibb.co/L51Yvyw/home.png)
 
 
