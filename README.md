@@ -5,7 +5,7 @@
 
 
 
-# Be Charity
+# WeatherCast  -Live Weather casting (powered by openWeather API)
 Our project aims to raise funds for disadvantaged children in Africa. You can register an account, log in, and contribute to the cause. Additionally, you have the opportunity to volunteer and create your own fundraising efforts. This project was a collaborative undertaking completed within a five-day timeframe.
 * User Page
 * Admin Page
