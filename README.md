@@ -6,9 +6,7 @@
 
 
 # WeatherCast  -Live Weather casting (powered by openWeather API)
-Our project aims to raise funds for disadvantaged children in Africa. You can register an account, log in, and contribute to the cause. Additionally, you have the opportunity to volunteer and create your own fundraising efforts. This project was a collaborative undertaking completed within a five-day timeframe.
-* User Page
-* Admin Page
+Welcome to WeatherCast, your go-to destination for real-time weather updates and a comprehensive 5-day weather forecast. This web application is designed to offer a seamless and visually appealing experience, providing users with dynamic weather data and enhanced features.
 
 
 **Netlify :**  [WeatherCast Live weather casting website ](https://abhayv225weathercast.netlify.app)
@@ -19,20 +17,17 @@ Our project aims to raise funds for disadvantaged children in Africa. You can re
 
 
 ## Features
+Live Weather Updates: Stay informed with the latest weather conditions, ensuring you're prepared for whatever nature has in store.
 
-**User Page**
-- Login & SignUp
-- Forget / Reset Password
-- Filter By Category
-- Search
-- Donation
-- Confirmation Mail
-- Volunteer Wall
-- Volunteer Access
-- Volunteer CRUD Operations
-- Payment
-- Edit Profile
-- Fully Responsive
+5-Day Weather Forecast: Plan ahead with our detailed 5-day forecast, giving you insights into the upcoming weather trends.
+
+Interactive Charts: Experience weather data like never before with beautiful and interactive charts powered by Apex Charts. Gain a deeper understanding of temperature variations, precipitation, and more.
+
+Dark Mode and Light Mode: Tailor your viewing experience with the choice of dark mode or light mode, enhancing readability and reducing eye strain in any lighting condition.
+
+Dynamic Data: All weather information is dynamically fetched, providing you with real-time updates and ensuring accuracy in every detail.
+
+Live Location Details: Get precise location information, keeping you aware of the weather conditions in your immediate surroundings.
 
 **Admin Page**
 - Add, Edit & Delete Users
